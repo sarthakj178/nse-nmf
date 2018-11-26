@@ -1,2 +1,2 @@
 # nse-nmf
-APIs to interact with NSE NMF, https://www.nsenmf.com/
+Utility functions to interact with NSE NMF XML-based APIs, https://www.nsenmf.com/
