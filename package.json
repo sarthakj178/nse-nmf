@@ -1,0 +1,39 @@
+{
+  "name": "nse-nmf",
+  "version": "1.1.0",
+  "description": "Utility functions to interact with NSE NMF XML-based APIs, https://www.nsenmf.com/",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-template": "copyfiles -u 1 ./resources/*.xml ./dist/resources"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakj178/nse-nmf.git"
+  },
+  "keywords": [
+    "nse",
+    "nmf"
+  ],
+  "author": "Sarthak Jain <sarthakj178@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakj178/nse-nmf/issues"
+  },
+  "homepage": "https://github.com/sarthakj178/nse-nmf#readme",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "core-util-is": "^1.0.2",
+    "safe-buffer": "^5.1.2"
+  }
+}
