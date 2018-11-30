@@ -1,6 +1,6 @@
 {
   "name": "nse-nmf",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utility functions to interact with NSE NMF XML-based APIs, https://www.nsenmf.com/",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
