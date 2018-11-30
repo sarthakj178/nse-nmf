@@ -6,30 +6,53 @@ export class Customer {
     taxStatusDesc?: string;
     holdNCode?: string;
     holdNatureDesc?: string;
-    activationStatus?: boolean;
+    activationStatus?: string;
     iinDeactivationReason?: string;
-    iinDeactivationDate?: Date;
-    createdDate?: Date;
-    lastModifiedDate?: Date;
-    // <CUSTOMER_ID>5011044482</CUSTOMER_ID>
-	// 			<INVESTOR_NAME>Shekhar</INVESTOR_NAME>
-	// 			<FH_PAN_NO>AVWPS0518G</FH_PAN_NO>
-	// 			<TAX_STATUS_CODE>01</TAX_STATUS_CODE>
-	// 			<TAX_STATUS_DESC>Individual</TAX_STATUS_DESC>
-	// 			<HOLD_N_CODE>SI</HOLD_N_CODE>
-	// 			<HOLD_NATURE_DESC>SINGLE</HOLD_NATURE_DESC>
-	// 			<ACTIVATION_STATUS>YES</ACTIVATION_STATUS>
-	// 			<IIN_DEACTIVATION_REASON/>
-	// 			<IIN_DEACTIVATION_DATE/>
-	// 			<CREATED_DATE>27-NOV-2015</CREATED_DATE>
-	// 			<LAST_MODIFIED_DATE/>
-    // 			<MAPPED_USER_NAME/>
+    iinDeactivationDate?: number;
+    createdDate?: number;
+    lastModifiedDate?: number;
+
+    dateOfBirth?: number;
+    kycStatus?: string;
+    occupation?: string;
+    fathersName?: string;
+    mothersName?: string;
+    addressLine1?: string;
+    addressLine2?: string;
+    addressLine3?: string;
+    city?: string;
+    state?: string;
+    pinCode?: string;
+    country?: string;
+    mobileNo?: string;
+    emailAddress?: string;
+    bankName?: string;
+    accountType?: string;
+    ifscCode?: string;
+    accountNo?: string;
+    branchName?: string;
+
+    nomineeCount?: number;
+    nominee1Name?: string;
+    nominee1DateOfBirth?: number;
+    nominee1Percentage?: number;
+    nominee1Relation?: string;
+    nominee2Name?: string;
+    nominee2DateOfBirth?: number;
+    nominee2Percentage?: number;
+    nominee2Relation?: string;
+    nominee3Name?: string;
+    nominee3DateOfBirth?: number;
+    nominee3Percentage?: number;
+    nominee3Relation?: string;
+
+    guardian?: string;
+    guardianPanNo?: string;
 
     constructor(
         customerId: string, investorName: string,
     ) {
         this.customerId = customerId;
         this.investorName = investorName;
-    }
-    
+    } 
 }

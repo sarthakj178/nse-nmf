@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMFIIService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <customer>
+        <appln_id>{userId}</appln_id>
+        <password>{password}</password>
+        <broker_code>{brokerCode}</broker_code>
+        <iin>{customerId}</iin>
+    </customer>
+</NMFIIService>
